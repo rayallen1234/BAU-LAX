@@ -1,80 +1,58 @@
-*{ 
+* { 
     padding: 0; 
     margin: 0; 
     box-sizing: border-box; 
     font-family: 'Century Gothic', sans-serif; 
-    } 
-    body{ 
-     
-        padding: 10%; 
-        margin-left: 2%; 
-        justify-content: center; 
-        align-items: top; 
-        min-height: 100vh; 
-        background-color: rgb(207, 52, 52); 
-    } 
-    .wrapper{ 
-        width: 300px; 
-        height: 101%; 
-        background-color: rgb(245, 247, 248); 
-        color: rgb(249, 252, 252); 
-        border-radius: 28px; 
-     
-    } 
-     
-    .wrapper h1{ 
-        font-size: 180%; 
-        text-align: center; 
-    } 
-     
-    .wrapper .input-box{ 
+}
+
+body { 
+    padding: 5%; 
+    margin: 0; 
+    min-height: 100vh; 
+    background-color: rgb(195, 85, 85); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+h1 { 
+    color: white; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+form { 
+    background-color: rgb(241, 241, 241); 
+    padding: 20px; 
+    border-radius: 10px; 
     width: 300px; 
-    height: 4.5cm; 
-    background: transparent; 
-     
-    } 
-     
-    input[type="email"] { 
-        width: 100%;  
-        padding: 12px; 
-        background-color: transparent; 
-        border: none;  
-        outline: none;  
-        border: 2px solid rgb(255, 255, 255); 
-        border-radius: 40px; 
-        padding: 10px 20px 10px 10p 
-      } 
-       
-      input[type="password"]{ 
-        width: 100%;  
-        padding: 12px; 
-        background-color: transparent; 
-        border: none;  
-        outline: none;  
-        border: 2px solid rgb(255, 255, 255); 
-        border-radius: 40px; 
-        padding: 10px 20px 10px 10p 
-     
-    } 
-     
-    input[type="text"]{ 
-        width: 100%;  
-        padding: 12px; 
-        background-color: transparent; 
-        border: none;  
-        outline: none;  
-        border: 2px solid rgb(255, 255, 255); 
-        border-radius: 40px; 
-        padding: 10px 20px 10px 10px; 
-     
-    } 
-     
-    button{ 
-        width: 100%;  
-        padding: 12px; 
-        background-color: transparent; 
-        border: none;  
-        outline: none;  
-        border: 2px solid rgb(255, 255, 255); 
-        border-radius: 40px; 
-    }
+    margin-bottom: 40px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+input[type="email"], input[type="password"], input[type="text"] { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 2px solid rgb(255, 255, 255); 
+    border-radius: 40px; 
+    background-color: transparent; 
+    outline: none;
+}
+
+button { 
+    width: 100%; 
+    padding: 12px; 
+    border: none; 
+    background-color: rgb(85, 195, 85); 
+    color: white; 
+    border-radius: 40px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+button:hover { 
+    background-color: rgb(68, 165, 68); 
+}

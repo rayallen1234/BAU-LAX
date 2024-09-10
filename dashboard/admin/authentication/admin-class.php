@@ -1,6 +1,6 @@
 <?php 
-require_once DIR.'/../../../database/dbconnection.php'; 
-include_once DIR.'/../../../config/setting-configuration.php'; 
+require_once __DIR__.'/../../../database/dbconnection.php'; 
+include_once __DIR__.'/../../../config/settings-configuration.php'; 
  
 class ADMIN 
 { 
